@@ -182,4 +182,31 @@ export const journalPosts: JournalPost[] = [
     ],
     buildSystemSlugs: ["custom-fuel-system"],
   },
+  {
+    id: "jp-08",
+    title: "47 Years of Minimal Use",
+    slug: "47-years-of-minimal-use",
+    excerpt:
+      "The Chinook's original interior survived nearly five decades virtually untouched. Here's what I found when I stripped it out — and why it had to go.",
+    contentType: "Workshop Story",
+    publishedAt: "2026-07-16",
+    featuredImage: {
+      src: "/journal/interior-strip-out.jpg",
+      alt: "The original 1978 Chinook interior mid-strip, showing vintage cabinetry and canvas",
+      width: 1600,
+      height: 900,
+    },
+    categories: ["Build", "Story"],
+    tags: ["Chinook", "interior", "restoration", "van life"],
+    readingMinutes: 4,
+    body: [
+      "When I picked up the Chinook, the interior was exactly as it left the factory in 1978. Forty-seven years of sitting — minimal use, maximum preservation. It was a time capsule.",
+      "The canvas, however, told a different story. Black mould had taken hold in the worst spots, the kind that comes from years of sitting in sheds and garages without airflow. Cleaning it off was the first job — tedious but satisfying.",
+      "Once the mould was gone, I could have kept the original interior. Technically, it was usable. But usable isn't the same as liveable. The vinyl was tired, the cabinetry was dated, and the whole thing felt like it belonged in a different era. Which, of course, it did.",
+      "The goal was never a museum restoration. This build is about creating a modern adventure vehicle — something that looks vintage on the outside but lives like a 2026 camper on the inside. That meant gutting everything and starting fresh.",
+      "Stripping it out was bittersweet. Tucked behind panels and under seats, I found fragments of the Chinook's past life: old receipts from WA, a faded service book with every stamp since new, handwritten notes. Forty-seven years of memories made in this little camper, all heading for the bin so something new could take its place.",
+      "The service records were phenomenal — a complete history from the first oil change to the last. It's rare to find paperwork like that with a vehicle this old. Whoever owned it cared, even if they didn't use it much.",
+      "Now the shell sits empty. No carpet, no cabinetry, no canvas. Just bare fibreglass walls and the faint smell of old camper. It's ready for the next chapter: a proper fit-out designed around how I actually want to travel.",
+    ],
+  },
 ];
