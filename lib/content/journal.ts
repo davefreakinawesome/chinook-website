@@ -125,9 +125,10 @@ export const journalPosts: JournalPost[] = [
     featured: true,
     readingMinutes: 7,
     body: [
-      "A loaded camper is heavy, and heavy vehicles need torque — not peaky power. The L98 6.0-litre is an alloy V8 that makes effortless low-down torque, stays relatively light, and has an enormous parts and tuning ecosystem behind it.",
-      "Reliability and serviceability matter more than headline numbers when you're a thousand kilometres from the nearest workshop. The L-series V8 has proven itself in exactly these conversions.",
-      "Paired with the 6L80E automatic, it should make the Chinook genuinely pleasant to drive loaded — relaxed on the highway, tractable in low range.",
+      "A six-litre V8 probably isn't the first choice most people would make when building a remote camping and touring vehicle. But I never needed massive power — the original 18R was gutless. This build is about torque, driveability, and honestly, economy.",
+      "A stock LS with a 6L80E behind it is surprisingly economical on the highway. As economical as a brick on wheels can be, anyway. I should be able to get decent mileage out of it.",
+      "I could have gone an M57 diesel with an 8HP eight-speed automatic, but here's the thing about the LS: being a Commodore motor, they're everywhere. I can walk into any wrecking yard in Australia and find parts for that engine or gearbox. If I'm remote and something breaks, I can get spares shipped fast. I didn't want to be dealing with something that wasn't readily available.",
+      "The last piece was the wiring. I can buy a standalone harness, plug it in, connect a few wires, and tune it as-is. I can leave the stock ECU and transmission computer, tune it for the tyres and gear ratios, and just drive. Engine in to wiring done should be a fast process — and that's exactly what I want.",
     ],
     buildSystemSlugs: ["engine-l98-v8", "6l80e-transmission"],
     relatedVideoId: "v-08",
