@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import PageHeader from "@/components/ui/PageHeader";
 import Section from "@/components/ui/Section";
 import Reveal from "@/components/anim/Reveal";
@@ -12,6 +13,9 @@ export const metadata: Metadata = {
 };
 
 export default async function ShopPage() {
+  // Shop is hidden for now — return 404 until ready to launch
+  notFound();
+
   const products = await getShopProducts();
   const physical = products.filter((p) => p.type === "physical");
   const digital = products.filter((p) => p.type === "digital");
