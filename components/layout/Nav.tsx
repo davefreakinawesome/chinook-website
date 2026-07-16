@@ -38,14 +38,7 @@ export default function Nav() {
         }`}
       >
         <div className="container-x flex h-16 items-center justify-between md:h-20">
-          <Link href="/" className="group flex items-center gap-3" aria-label={site.name}>
-            <span className="flex h-8 w-8 items-center justify-center border border-line-strong text-accent transition-colors group-hover:border-accent">
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
-                <path d="M1 11h3l2-6h4l2 6h3" stroke="currentColor" strokeWidth="1.5" />
-                <circle cx="5" cy="12.5" r="1.6" stroke="currentColor" strokeWidth="1.3" />
-                <circle cx="11" cy="12.5" r="1.6" stroke="currentColor" strokeWidth="1.3" />
-              </svg>
-            </span>
+          <Link href="/" className="group flex items-center" aria-label={site.name}>
             <span className="font-display text-lg uppercase leading-none tracking-tight">
               Chinook<span className="text-accent"> Overlander</span>
             </span>

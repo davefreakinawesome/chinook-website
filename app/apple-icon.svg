@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+  <!-- Background for iOS -->
+  <rect width="180" height="180" fill="#1a1a1a"/>
+  <!-- Outer yellow ring (KC Hilites style light cover) -->
+  <circle cx="90" cy="90" r="75" fill="#F5A623" stroke="#1a1a1a" stroke-width="4"/>
+  <!-- Inner dark circle (light housing) -->
+  <circle cx="90" cy="90" r="55" fill="#1a1a1a"/>
+  <!-- Light beam rays emanating from center -->
+  <g fill="#F5A623">
+    <!-- Center glow -->
+    <circle cx="90" cy="90" r="20" opacity="0.9"/>
+    <!-- Top ray -->
+    <path d="M82 38 L90 58 L98 38 Z"/>
+    <!-- Top-right ray -->
+    <path d="M125 48 L105 68 L135 58 Z"/>
+    <!-- Right ray -->
+    <path d="M142 82 L122 90 L142 98 Z"/>
+    <!-- Bottom-right ray -->
+    <path d="M135 122 L105 112 L125 132 Z"/>
+    <!-- Bottom ray -->
+    <path d="M98 142 L90 122 L82 142 Z"/>
+    <!-- Bottom-left ray -->
+    <path d="M55 132 L75 112 L45 122 Z"/>
+    <!-- Left ray -->
+    <path d="M38 98 L58 90 L38 82 Z"/>
+    <!-- Top-left ray -->
+    <path d="M45 58 L75 68 L55 48 Z"/>
+  </g>
+</svg>
