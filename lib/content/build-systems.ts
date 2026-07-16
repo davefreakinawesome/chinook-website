@@ -7,17 +7,17 @@ export const buildSystems: BuildSystem[] = [
     slug: "80-series-chassis",
     category: "Chassis & Driveline",
     summary:
-      "A 1997 Toyota LandCruiser 80 Series chassis becomes the modern backbone for a 1978 camper body.",
+      "A 1997 Toyota LandCruiser 80 Series chassis becomes the extremely engineered backbone for this vintage 4x4 camper.",
     status: "in-progress",
     progress: 65,
     heroImage: {
       src: "/build/chassis.jpg",
-      alt: "Bare 80 Series LandCruiser chassis at sunset, with the Chinook and V8 in the background",
+      alt: "Bare 80 Series LandCruiser chassis at sunset, with the vintage Chinook and V8 in the background",
       width: 1600,
       height: 900,
     },
     body: [
-      "The original 1978 Hilux-based ladder frame was never designed to carry a full camper body, a V8, and the loads of remote Australian travel. The 80 Series platform brings coil suspension, full-floating axles and a proven driveline into the project.",
+      "The original 1978 Hilux-based ladder frame was never designed to carry a full extreme camper body, a V8, and the loads of serious Australian adventure. The 80 Series platform brings coil suspension, full-floating axles and a proven driveline into this unique build.",
       "The frame was media blasted, inspected for cracking and corrosion, then prepped for the wheelbase extension and body-mounting work that follows.",
     ],
     specifications: [
@@ -41,18 +41,18 @@ export const buildSystems: BuildSystem[] = [
     slug: "wheelbase-extension",
     category: "Chassis & Driveline",
     summary:
-      "Stretching the LandCruiser chassis to seat the Chinook body while staying legal on rear overhang.",
+      "Stretching the LandCruiser chassis to seat this vintage camper body while staying legal on rear overhang.",
     status: "in-progress",
     progress: 40,
     heroImage: {
       src: "/build/wheelbase.jpg",
-      alt: "Custom fabricated chassis brackets marked inside and outside on the workshop floor",
+      alt: "Custom fabricated chassis brackets for the vintage 4x4 camper build on the workshop floor",
       width: 1600,
       height: 900,
     },
     body: [
-      "The Chinook body is longer than the donor cab-chassis wheelbase allows. Extending the frame lets the body sit correctly while keeping weight distribution sensible and the rear overhang inside Australian rules.",
-      "The cut was made in a jig, sleeved internally and welded in stages to control distortion, then reinforced across the join.",
+      "The vintage Chinook body is longer than the donor cab-chassis wheelbase allows. Extending the frame lets the body sit correctly while keeping weight distribution sensible and the rear overhang inside Australian rules.",
+      "The cut was made in a jig, sleeved internally and welded in stages to control distortion, then reinforced across the join. Extreme precision for an extremely engineered camper.",
     ],
     specifications: [
       { label: "Extension", value: "+320", unit: "mm" },
@@ -71,17 +71,17 @@ export const buildSystems: BuildSystem[] = [
     slug: "engine-l98-v8",
     category: "Powertrain",
     summary:
-      "A GM-derived L98 6.0-litre V8 replaces the tired original four-cylinder, transforming the Chinook's capability.",
+      "A GM-derived L98 6.0-litre V8 replaces the tired original four-cylinder, transforming this vintage camper into an extreme 4x4.",
     status: "in-progress",
     progress: 30,
     heroImage: {
       src: "/build/engine.jpg",
-      alt: "The L98 6.0-litre V8 on a pallet, backlit by the setting sun",
+      alt: "The L98 6.0-litre V8 on a pallet for the extremely engineered vintage camper build",
       width: 1600,
       height: 900,
     },
     body: [
-      "The L98 is a lightweight, torque-rich alloy V8 with a huge aftermarket and proven reliability. It gives the heavy camper the grunt to move loaded across the country and up steep tracks.",
+      "The L98 is a lightweight, torque-rich alloy V8 with a huge aftermarket and proven reliability. It gives this extreme camper the grunt to move loaded across the country and up steep tracks.",
       "Engine plates and a custom crossmember locate the V8 in a bay it was never meant to live in, with clearance for the firewall and steering.",
     ],
     specifications: [
@@ -131,19 +131,19 @@ export const buildSystems: BuildSystem[] = [
     slug: "electrical-control-systems",
     category: "Electrical",
     summary:
-      "A hybrid Raspberry Pi + ESP32 control system runs lighting, water, power and a Tesla-style digital dashboard — engineered to keep working even if the main screen fails.",
+      "A hybrid Raspberry Pi + ESP32 control system runs lighting, water, power and a Tesla-style digital dashboard — extremely engineered to keep working even if the main screen fails.",
     status: "in-progress",
     progress: 55,
     heroImage: {
       src: "/build/electrical.jpg",
-      alt: "The Chinook's halo LED headlights glowing at dusk",
+      alt: "The extremely engineered vintage Chinook's halo LED headlights glowing at dusk",
       width: 1600,
       height: 900,
     },
     body: [
-      "The camper's electrical system is designed like a small vehicle network. A mini-computer acts as the 'pretty brain' — the touchscreen UI, maps, media and local server — while rugged microcontrollers form the reliable nervous system that actually switches loads and reads sensors.",
+      "This extreme camper's electrical system is designed like a small vehicle network. A mini-computer acts as the 'pretty brain' — the touchscreen UI, maps, media and local server — while rugged microcontrollers form the reliable nervous system that actually switches loads and reads sensors.",
       "The critical rule: the mini-computer is never the only device responsible for a critical load. If the main screen reboots, the vehicle and habitat keep functioning through the controllers and physical switch fallbacks.",
-      "Three controllers split the work — a Cab controller (CAN/OBD data, front lighting, ignition sense), a Habitat controller (interior lighting, water, fans, fridge, inverter, audio zones) and a Security controller (immobiliser, sensors, cameras). They share a single central state model and talk over MQTT and USB serial.",
+      "Three controllers split the work — a Cab controller (CAN/OBD data, front lighting, ignition sense), a Habitat controller (interior lighting, water, fans, fridge, inverter, audio zones) and a Security controller (immobiliser, sensors, cameras). They share a single central state model and talk over MQTT and USB serial. It's what makes this vintage 4x4 camper truly unique.",
     ],
     specifications: [
       { label: "UI brain", value: "Raspberry Pi 5" },
@@ -169,11 +169,11 @@ export const buildSystems: BuildSystem[] = [
     slug: "custom-fuel-system",
     category: "Powertrain",
     summary:
-      "A ~200-litre fuel system for genuine remote-area range between fills.",
+      "A ~200-litre fuel system for genuine remote-area range — designed for an extreme camper built for serious adventure.",
     status: "planned",
     progress: 5,
     body: [
-      "Remote Australian travel means long distances between fuel. A large-capacity custom tank, sized around the extended chassis, gives the range to cross deserts with margin.",
+      "Serious Australian adventure means long distances between fuel. A large-capacity custom tank, sized around the extended chassis, gives this extreme camper the range to cross deserts with margin.",
       "EFI-appropriate baffling, surge control and sender integration feed the digital dashboard's fuel readout.",
     ],
     specifications: [

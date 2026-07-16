@@ -7,7 +7,7 @@ import { getJournalPosts } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Build Journal",
   description:
-    "Build updates, technical guides, workshop stories and engineering explanations from the Chinook project.",
+    "Build updates, technical guides, workshop stories and engineering explanations from this unique build — an extremely engineered vintage 4x4 camper.",
 };
 
 export default async function JournalPage() {
@@ -18,7 +18,7 @@ export default async function JournalPage() {
       <PageHeader
         eyebrow="Build Journal"
         title="Notes from the Workshop"
-        intro="The decisions, the mistakes, the fabrication and the engineering — written up in full. The imperfect journey is part of the story."
+        intro="The decisions, the mistakes, the fabrication and the extreme engineering — written up in full. The imperfect journey of this unique build is part of the story."
       />
       <Section className="pt-0">
         <JournalIndex posts={posts} />

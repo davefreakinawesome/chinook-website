@@ -9,7 +9,7 @@ import { getBuildSystems } from "@/lib/content";
 export const metadata: Metadata = {
   title: "The Build",
   description:
-    "The complete Chinook build, organised into systems — chassis, powertrain, electrical, fuel and more. A digital workshop manual.",
+    "The complete Chinook Overlander build, organised into systems — chassis, powertrain, electrical, fuel and more. An extremely engineered vintage 4x4 camper documented in detail.",
 };
 
 export default async function BuildPage() {
@@ -21,7 +21,7 @@ export default async function BuildPage() {
       <PageHeader
         eyebrow="The Build"
         title="A Digital Workshop Manual"
-        intro="Every system on the Chinook, documented — the engineering, the decisions, the challenges and the lessons. Explore by system below."
+        intro="Every system on this extremely engineered vintage 4x4 camper, documented — the engineering, the decisions, the challenges and the lessons. Explore by system below."
       />
 
       <Section className="pt-0">

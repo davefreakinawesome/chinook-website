@@ -45,7 +45,7 @@ export default function Footer() {
             <span className="font-display text-lg uppercase tracking-tight">
               Chinook<span className="text-accent"> Overlander</span>
             </span>
-            <span className="label-mono-muted hidden sm:inline">1978 Toyota Chinook</span>
+            <span className="label-mono-muted hidden sm:inline">Extremely Engineered Vintage 4x4</span>
           </div>
           <div className="flex gap-6 font-mono text-[0.7rem] uppercase tracking-[0.16em] text-grey">
             <a href={social.youtube} target="_blank" rel="noopener noreferrer" className="hover:text-accent">YouTube</a>

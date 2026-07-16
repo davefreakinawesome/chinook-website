@@ -7,7 +7,7 @@ import { getVideos } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Watch",
-  description: "Every episode of the Chinook build series, plus shorts, workshop clips and travel films.",
+  description: "Every episode of the Chinook Overlander build series — documenting an extremely engineered vintage 4x4 camper from start to finish.",
 };
 
 export default async function WatchPage() {
@@ -19,7 +19,7 @@ export default async function WatchPage() {
       <PageHeader
         eyebrow="Watch"
         title="The Build Series"
-        intro="Follow the Chinook rebuild episode by episode — fabrication, engineering and the decisions behind every system."
+        intro="Follow this unique build episode by episode — fabrication, extreme engineering and the decisions behind every system of this vintage 4x4 camper."
       />
 
       <Section className="pt-0">

@@ -55,7 +55,7 @@ export default function Hero() {
       <div className="container-x relative z-10">
         <div className="flex items-center gap-3" data-hero-meta>
           <span className="h-1.5 w-1.5 bg-accent" />
-          <span className="label-mono">Built Different — Est. 2026</span>
+          <span className="label-mono">One-of-One Extreme Build — Est. 2026</span>
         </div>
         <h1 className="mt-4 font-display text-[13vw] leading-[0.84] sm:text-7xl md:text-8xl lg:text-[7.5rem]">
           <span data-hero-line className="block overflow-hidden">
@@ -72,7 +72,7 @@ export default function Hero() {
       <div data-hero-render className="relative z-0 mx-auto -my-2 min-h-0 w-full max-w-5xl flex-1">
         <Image
           src="/vehicle/chinook-cartoon.png"
-          alt="The rebuilt 1978 Toyota Chinook overland camper"
+          alt="The extremely engineered 1978 Toyota Chinook vintage 4x4 camper"
           fill
           priority
           sizes="(max-width: 1024px) 100vw, 1024px"
@@ -84,8 +84,8 @@ export default function Hero() {
       <div className="container-x relative z-10">
         <div className="grid gap-6 md:grid-cols-[1fr_auto] md:items-end">
           <p className="editorial max-w-md text-sm md:text-base" data-hero-meta>
-            A rare Toyota camper rebuilt on an 80 Series LandCruiser chassis, powered by a 6.0-litre
-            V8 and engineered for remote Australian travel.
+            An extremely engineered vintage 4x4 camper: rare Toyota body, 80 Series LandCruiser
+            chassis, 6.0-litre V8 — a unique build designed for serious Australian adventure.
           </p>
           <div className="flex flex-wrap gap-3" data-hero-meta>
             <Link href="/watch" className="btn btn-primary">Watch the Latest Episode</Link>

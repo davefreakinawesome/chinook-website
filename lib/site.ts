@@ -1,9 +1,9 @@
 export const site = {
   name: "Chinook Overlander",
   shortName: "Chinook",
-  tagline: "Vintage Toyota. Modern Engineering. Australian Adventure.",
+  tagline: "A Unique Build. An Extreme Camper. One Vintage 4x4.",
   description:
-    "A rare 1978 Toyota Chinook camper rebuilt on an 80 Series LandCruiser chassis, powered by a 6.0-litre V8 and engineered for remote Australian travel.",
+    "Chinook Overlander: an extremely engineered vintage 4x4 camper. A rare 1978 Toyota Chinook rebuilt on an 80 Series LandCruiser chassis, powered by a 6.0-litre V8 and built for serious Australian adventure.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://chinookoverlander.com",
   locale: "en_AU",
   // Public channel id for @ChinookOverlander — enables the keyless RSS feed
