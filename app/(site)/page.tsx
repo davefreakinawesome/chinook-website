@@ -61,20 +61,20 @@ export default async function HomePage() {
           <div>
             <p className="label-mono">The Project</p>
             <AnimatedHeading
-              text="A forgotten camper, reimagined."
+              text="A unique build, from the ground up."
               className="mt-4 font-display text-4xl leading-[0.9] sm:text-5xl md:text-6xl"
             />
           </div>
           <Reveal className="editorial space-y-4 text-base md:text-lg">
             <p>
-              The Chinook is a rare 1978 Toyota camper, originally built on an early Hilux. This
-              project rebuilds that character-rich body onto a modified 1997 LandCruiser 80 Series
-              chassis, powered by a 6.0-litre V8 and a six-speed automatic.
+              The Chinook is a rare 1978 Toyota camper — and this is an extreme rebuild. The
+              character-rich vintage body sits on a modified 1997 LandCruiser 80 Series chassis,
+              powered by a 6.0-litre V8 and a six-speed automatic.
             </p>
             <p>
-              It is vintage on the outside and modern engineering underneath — fabrication, CAD,
-              electronics and 3D printing combined into one capable machine, engineered and complied
-              for remote Australian travel.
+              This is an extremely engineered vintage 4x4 camper: fabrication, CAD, electronics and
+              3D printing combined into one unique build — designed and complied for serious
+              Australian adventure.
             </p>
             <Link
               href="/story"
@@ -91,7 +91,7 @@ export default async function HomePage() {
         <SectionHeader
           eyebrow="Interactive Overview"
           title="Explore the Chinook"
-          intro="Every major system, mapped onto the vehicle. Tap a point to dive into the engineering behind it."
+          intro="Every major system of this extremely engineered vintage camper, mapped onto the vehicle. Tap a point to dive into the build."
         />
         <div className="mt-12">
           <VehicleHotspots />
@@ -131,7 +131,7 @@ export default async function HomePage() {
         <SectionHeader
           eyebrow="Partners"
           title="Who Backs the Build"
-          intro="The brands whose products are genuinely integrated into the Chinook."
+          intro="The brands whose products are genuinely integrated into this unique build."
           link={{ label: "All partners", href: "/partners" }}
         />
         <div className="mt-12 grid gap-px border border-line bg-line md:grid-cols-3">
@@ -178,7 +178,7 @@ export default async function HomePage() {
         <div className="container-x">
           <p className="label-mono justify-center">The build is only the beginning</p>
           <AnimatedHeading
-            text="Vintage Toyota. Modern Engineering. Australian Adventure."
+            text="A Unique Build. An Extreme Camper. One Vintage 4x4."
             as="h2"
             className="mx-auto mt-6 max-w-4xl font-display text-5xl leading-[0.9] md:text-7xl"
           />

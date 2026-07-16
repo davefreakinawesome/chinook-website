@@ -23,7 +23,7 @@ const hotspots: Hotspot[] = [
   { id: "bar", label: "Barwork & Lighting", system: "Front", href: "/build/electrical-control-systems", left: 90, top: 60 },
   { id: "cab", label: "Digital Dashboard", system: "Cab", href: "/build/electrical-control-systems", left: 63, top: 30 },
   { id: "roof", label: "Solar & Comms", system: "Roof", href: "/build/electrical-control-systems", left: 30, top: 9 },
-  { id: "body", label: "Camper Body", system: "Habitat", href: "/build", left: 17, top: 33 },
+  { id: "body", label: "Vintage Camper Body", system: "Habitat", href: "/build", left: 17, top: 33 },
   { id: "chassis", label: "80 Series Chassis", system: "Driveline", href: "/build/80-series-chassis", left: 52, top: 76 },
   { id: "wheelbase", label: "Wheelbase", system: "Chassis", href: "/build/wheelbase-extension", left: 30, top: 74 },
 ];
@@ -37,7 +37,7 @@ export default function VehicleHotspots() {
         <div className="relative aspect-[1024/640] w-full">
           <Image
             src="/vehicle/chinook-cartoon.png"
-            alt="Illustration of the rebuilt Toyota Chinook overland camper"
+            alt="Illustration of the extremely engineered vintage Toyota Chinook 4x4 camper"
             fill
             sizes="(max-width: 1024px) 100vw, 1024px"
             className="object-contain drop-shadow-2xl"

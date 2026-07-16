@@ -8,7 +8,7 @@ import Reveal from "@/components/anim/Reveal";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "The builder and the project. Where fabrication, technology, storytelling and adventure meet.",
+    "The builder behind this unique build. Where extreme engineering, vintage camper restoration, and Australian adventure meet.",
 };
 
 const disciplines = ["Fabrication", "Engineering", "CAD", "Electronics", "3D Printing", "Web Development", "Storytelling", "Adventure"];
@@ -19,7 +19,7 @@ export default function AboutPage() {
       <PageHeader
         eyebrow="About"
         title="Where Metal Meets Code"
-        intro="The Chinook is where fabrication, technology, storytelling and adventure meet — a project that runs on the same craftsmanship in the workshop and on the screen."
+        intro="This unique build is where extreme engineering, vintage camper craftsmanship, and digital storytelling meet — a project that demands the same precision in the workshop and on the screen."
       />
 
       <Section className="pt-0">
@@ -27,22 +27,23 @@ export default function AboutPage() {
           <div className="editorial max-w-2xl space-y-5 text-lg">
             <p>
               I&apos;m Dave — a web developer by trade and a builder by obsession. This project is the
-              intersection of both: an extraordinary vehicle, documented through an extraordinary
-              digital experience.
+              intersection of both: an extremely engineered vintage 4x4 camper, documented through
+              an extraordinary digital experience.
             </p>
             <p>
-              The Chinook rebuild is a serious fabrication and engineering challenge — a rare 1978
-              Toyota camper reimagined on a modern LandCruiser platform with a V8 heart. But it&apos;s
-              also a chance to build the kind of website I&apos;d want to visit: fast, cinematic,
-              technical and genuinely useful.
+              The Chinook is a serious fabrication and engineering challenge — a rare 1978 vintage
+              camper transformed into an extreme 4x4 on a modern LandCruiser platform with a V8
+              heart. It&apos;s a unique build, and also a chance to build the kind of website I&apos;d
+              want to visit: fast, cinematic, technical and genuinely useful.
             </p>
             <p>
               I&apos;ll share the wins and the mistakes — the failed ideas, the design revisions, the
               budget calls and the lessons. The imperfect journey is the interesting part.
             </p>
             <p>
-              The long-term mission is simple: finish an outstanding vehicle, tell the story
-              properly, and eventually point it at the horizon and go travelling across Australia.
+              The long-term mission is simple: finish this extremely engineered vintage camper, tell
+              the story properly, and eventually point it at the horizon and go travelling across
+              Australia.
             </p>
             <div className="flex flex-wrap gap-3 pt-2">
               <Link href="/story" className="btn btn-primary">Read the Project Story</Link>

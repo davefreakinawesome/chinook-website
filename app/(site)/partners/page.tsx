@@ -11,7 +11,7 @@ import type { PartnerLevel } from "@/lib/types";
 export const metadata: Metadata = {
   title: "Partners",
   description:
-    "The brands supporting the Chinook build — genuinely integrated products, not a logo graveyard.",
+    "The brands supporting this unique build — genuinely integrated products on an extremely engineered vintage 4x4 camper.",
 };
 
 const levelOrder: PartnerLevel[] = ["principal", "build", "product", "supporter", "affiliate"];
@@ -27,7 +27,7 @@ export default async function PartnersPage() {
       <PageHeader
         eyebrow="Partners"
         title="Who Backs the Build"
-        intro="Every partner here has a product genuinely integrated into the Chinook. The strongest partnerships show the gear actually working."
+        intro="Every partner here has a product genuinely integrated into this unique build. The strongest partnerships show the gear actually working on an extreme camper."
       />
 
       <Section className="pt-0">

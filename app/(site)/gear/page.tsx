@@ -7,7 +7,7 @@ import { getProducts } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Gear",
   description:
-    "Every product used on the Chinook build — tools, electronics, automotive parts and software — with clear disclosures and links.",
+    "Every product used on this unique build — tools, electronics, automotive parts and software for an extremely engineered vintage 4x4 camper.",
 };
 
 export default async function GearPage() {
@@ -18,7 +18,7 @@ export default async function GearPage() {
       <PageHeader
         eyebrow="Gear Directory"
         title="What's on the Build"
-        intro="A structured directory of the tools, parts and software used on the Chinook — with honest disclosures on what's bought, supplied, sponsored or affiliate."
+        intro="A structured directory of the tools, parts and software used on this extreme camper build — with honest disclosures on what's bought, supplied, sponsored or affiliate."
       />
       <Section className="pt-0">
         <GearIndex products={products} />

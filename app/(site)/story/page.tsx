@@ -8,34 +8,34 @@ import VehicleHotspots from "@/components/vehicle/VehicleHotspots";
 export const metadata: Metadata = {
   title: "The Story",
   description:
-    "What the Chinook is, why it's rare, why it's being rebuilt, and where it will travel.",
+    "What the Chinook is, why it's rare, how it became an extremely engineered vintage 4x4 camper, and where this unique build will travel.",
 };
 
 const chapters = [
   {
     n: "01",
     title: "What the Chinook Is",
-    body: "A rare 1978 Toyota Chinook — a fibreglass camper body originally built on an early Hilux. An oddball adventure vehicle decades ahead of the overlanding trend.",
+    body: "A rare 1978 Toyota Chinook — a fibreglass vintage camper body originally built on an early Hilux. An oddball adventure vehicle decades ahead of the overlanding trend, and the foundation for something extreme.",
   },
   {
     n: "02",
     title: "Why It's Rare",
-    body: "Few were built, fewer survive, and almost none in a state worth transforming. The character of the body is irreplaceable — but the running gear underneath was never built for what's coming.",
+    body: "Few were built, fewer survive, and almost none in a state worth transforming. The character of this vintage body is irreplaceable — but the running gear underneath was never built for what's coming.",
   },
   {
     n: "03",
     title: "Why It's Being Rebuilt",
-    body: "Rather than a faithful restoration, this is a complete reimagining: the vintage body onto a modified 1997 LandCruiser 80 Series chassis, with a 6.0-litre V8, a six-speed automatic and a fully custom electrical platform.",
+    body: "Rather than a faithful restoration, this is an extreme rebuild: the vintage camper body onto a modified 1997 LandCruiser 80 Series chassis, with a 6.0-litre V8, a six-speed automatic and a fully custom electrical platform. A unique build from the ground up.",
   },
   {
     n: "04",
     title: "What It Will Become",
-    body: "A highly capable, Australian-engineered overland vehicle — vintage on the outside, modern engineering underneath, complied for the road and prepared for remote travel.",
+    body: "An extremely engineered vintage 4x4 camper — vintage on the outside, serious engineering underneath, complied for the road and built for the harshest terrain Australia can throw at it.",
   },
   {
     n: "05",
     title: "Where It Will Travel",
-    body: "Ultimately, trips throughout Australia — including remote and desert crossings. The build is only the beginning.",
+    body: "Throughout Australia — including remote and desert crossings that demand an extreme camper. This unique build is just the beginning.",
   },
 ];
 
@@ -44,8 +44,8 @@ export default function StoryPage() {
     <>
       <PageHeader
         eyebrow="The Project Story"
-        title="A Rare Toyota, Reimagined"
-        intro="From forgotten camper to outback explorer — the full story of Chinook Overlander."
+        title="A Rare Toyota, Extremely Rebuilt"
+        intro="From forgotten vintage camper to extreme 4x4 — the full story of Chinook Overlander."
       />
 
       <Section className="pt-0">

@@ -37,6 +37,11 @@ export const metadata: Metadata = {
     "LS swap LandCruiser",
     "overland vehicle Australia",
     "4WD camper build",
+    "unique build",
+    "vintage camper",
+    "extreme camper",
+    "vintage 4x4 camper",
+    "extremely engineered camper",
   ],
   openGraph: {
     type: "website",
@@ -45,7 +50,7 @@ export const metadata: Metadata = {
     siteName: site.name,
     title: `${site.name} — ${site.tagline}`,
     description: site.description,
-    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: `${site.name} — 1978 Toyota Chinook rebuilt` }],
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: `${site.name} — an extremely engineered vintage 4x4 camper` }],
   },
   twitter: {
     card: "summary_large_image",
