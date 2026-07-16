@@ -19,16 +19,14 @@ import {
   getFeaturedPosts,
   getFeaturedPartners,
   getProducts,
-  getShopProducts,
 } from "@/lib/content";
 
 export default async function HomePage() {
-  const [latest, stories, partners, gear, shop] = await Promise.all([
+  const [latest, stories, partners, gear] = await Promise.all([
     getLatestVideo(),
     getFeaturedPosts(3),
     getFeaturedPartners(),
     getProducts(),
-    getShopProducts(),
   ]);
 
   return (
@@ -172,32 +170,6 @@ export default async function HomePage() {
             </p>
           </div>
           <NewsletterForm />
-        </div>
-      </Section>
-
-      {/* Shop preview */}
-      <Section className="border-t border-line">
-        <SectionHeader
-          eyebrow="Shop"
-          title="Merch & Downloads"
-          intro="Support the build. Store opening soon — join the list to hear first."
-          link={{ label: "Preview the shop", href: "/shop" }}
-        />
-        <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4">
-          {shop.slice(0, 4).map((product, i) => (
-            <div key={product.id} className="group relative border border-line bg-graphite/30">
-              <div className="aspect-square w-full bg-gradient-to-br from-graphite to-charcoal" />
-              <div className="p-4">
-                <span className="font-mono text-[0.6rem] uppercase tracking-[0.16em] text-grey">
-                  {product.type}
-                </span>
-                <h3 className="mt-1 font-display text-lg uppercase leading-none text-bone">{product.name}</h3>
-                <p className="mt-2 font-mono text-xs text-accent">
-                  {product.comingSoon ? "Coming soon" : `$${product.price} ${product.currency}`}
-                </p>
-              </div>
-            </div>
-          ))}
         </div>
       </Section>
 
