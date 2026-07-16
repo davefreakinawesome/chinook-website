@@ -1,0 +1,64 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e6d3"/>
+      <stop offset="100%" style="stop-color:#d4c4b0"/>
+    </linearGradient>
+    <linearGradient id="camperGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8f0"/>
+      <stop offset="100%" style="stop-color:#f5e6d3"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Shadow -->
+  <ellipse cx="400" cy="380" rx="350" ry="20" fill="rgba(0,0,0,0.2)"/>
+  
+  <!-- Wheels -->
+  <circle cx="180" cy="340" r="60" fill="#1a1a2e"/>
+  <circle cx="180" cy="340" r="45" fill="#2d2d44"/>
+  <circle cx="180" cy="340" r="20" fill="#4a4a5a"/>
+  
+  <circle cx="580" cy="340" r="60" fill="#1a1a2e"/>
+  <circle cx="580" cy="340" r="45" fill="#2d2d44"/>
+  <circle cx="580" cy="340" r="20" fill="#4a4a5a"/>
+  
+  <!-- Truck body -->
+  <rect x="100" y="200" width="350" height="130" rx="10" fill="url(#bodyGrad)"/>
+  
+  <!-- Cab -->
+  <path d="M 450 200 L 450 330 L 700 330 L 700 180 L 550 180 L 500 140 L 450 140 L 450 200" fill="url(#bodyGrad)" stroke="#c4a482" stroke-width="2"/>
+  
+  <!-- Windshield -->
+  <path d="M 500 145 L 550 185 L 690 185 L 690 145 Z" fill="#4a90a4" opacity="0.8"/>
+  
+  <!-- Camper shell -->
+  <rect x="110" y="80" width="330" height="120" rx="8" fill="url(#camperGrad)" stroke="#e8d5c4" stroke-width="2"/>
+  
+  <!-- Camper windows -->
+  <rect x="140" y="100" width="60" height="50" rx="5" fill="#3d7a8c" opacity="0.7"/>
+  <rect x="220" y="100" width="60" height="50" rx="5" fill="#3d7a8c" opacity="0.7"/>
+  <rect x="300" y="100" width="60" height="50" rx="5" fill="#3d7a8c" opacity="0.7"/>
+  
+  <!-- Stripe -->
+  <rect x="100" y="240" width="600" height="8" fill="#e57c23"/>
+  <rect x="100" y="252" width="600" height="4" fill="#c44536"/>
+  
+  <!-- Bull bar -->
+  <rect x="700" y="200" width="20" height="130" rx="5" fill="#2d2d44"/>
+  <circle cx="720" cy="240" r="15" fill="#ffdd44" opacity="0.9"/>
+  <circle cx="720" cy="290" r="15" fill="#ffdd44" opacity="0.9"/>
+  
+  <!-- Headlights -->
+  <circle cx="695" cy="220" r="18" fill="#fff" opacity="0.9"/>
+  <circle cx="695" cy="260" r="18" fill="#fff" opacity="0.9"/>
+  
+  <!-- Roof rack / solar -->
+  <rect x="130" y="65" width="290" height="15" rx="3" fill="#2d2d44"/>
+  
+  <!-- Antenna -->
+  <line x1="400" y1="65" x2="400" y2="20" stroke="#2d2d44" stroke-width="3"/>
+  
+  <!-- Text labels -->
+  <text x="200" y="175" font-family="Arial" font-size="14" fill="#8b7355" font-weight="bold">CHINOOK</text>
+  <text x="550" y="165" font-family="Arial" font-size="10" fill="#8b7355">HILUX</text>
+</svg>
