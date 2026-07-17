@@ -11,6 +11,9 @@
    ============================================================ */
 
 @theme {
+  /* --- Breakpoints --- */
+  --breakpoint-xs: 25rem; /* 400px — small mobile */
+
   /* --- New semantic palette --- */
   --color-cream: #feecd7; /* page background */
   --color-cream-2: #fbe3c8; /* raised surface */

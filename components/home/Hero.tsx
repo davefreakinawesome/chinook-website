@@ -7,7 +7,8 @@ import { gsap, ScrollTrigger, registerGsap, prefersReducedMotion } from "@/lib/g
 import { buildStatus } from "@/lib/site";
 
 /** Total scroll distance (in vh) the hero stays pinned before releasing. */
-const SCROLL_VH = 400;
+const SCROLL_VH_DESKTOP = 400;
+const SCROLL_VH_MOBILE = 280;
 
 export default function Hero() {
   const root = useRef<HTMLElement>(null);
@@ -48,12 +49,14 @@ export default function Hero() {
       // Scrubbed, pinned morph timeline.
       const HOLD = 1.2;
       const XF = 1;
+      const isMobile = window.matchMedia("(max-width: 639px)").matches;
+      const scrollVh = isMobile ? SCROLL_VH_MOBILE : SCROLL_VH_DESKTOP;
 
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: el,
           start: "top top",
-          end: `+=${SCROLL_VH}%`,
+          end: `+=${scrollVh}%`,
           scrub: 1,
           pin: pinEl,
           anticipatePin: 1,
@@ -129,8 +132,8 @@ export default function Hero() {
 
           <div className="mt-4 grid">
             <h1
-              data-phrase
-              className="col-start-1 row-start-1 font-display text-[13vw] leading-[0.84] sm:text-7xl md:text-8xl lg:text-[7.5rem]"
+              data-phrase="0"
+              className="col-start-1 row-start-1 font-display text-[11vw] leading-[0.88] xs:text-[13vw] xs:leading-[0.84] sm:text-7xl md:text-8xl lg:text-[7.5rem]"
             >
               <span className="block overflow-hidden">
                 <span data-line-inner className="inline-block">1978 Toyota</span>
@@ -142,15 +145,15 @@ export default function Hero() {
             </h1>
 
             <h1
-              data-phrase
-              className="col-start-1 row-start-1 max-w-[12ch] font-display text-[11vw] leading-[0.9] opacity-0 sm:text-6xl md:text-7xl lg:text-[6rem]"
+              data-phrase="1"
+              className="col-start-1 row-start-1 max-w-[16ch] font-display text-[8.5vw] leading-[0.95] opacity-0 xs:max-w-[12ch] xs:text-[11vw] xs:leading-[0.9] sm:text-6xl md:text-7xl lg:text-[6rem]"
             >
               The most <span className="text-accent">unique</span> 4×4 camper in Australia
             </h1>
 
             <h1
-              data-phrase
-              className="col-start-1 row-start-1 max-w-[11ch] font-display text-[12vw] leading-[0.88] opacity-0 sm:text-7xl md:text-8xl lg:text-[6.5rem]"
+              data-phrase="2"
+              className="col-start-1 row-start-1 max-w-[14ch] font-display text-[9vw] leading-[0.92] opacity-0 xs:max-w-[11ch] xs:text-[12vw] xs:leading-[0.88] sm:text-7xl md:text-8xl lg:text-[6.5rem]"
             >
               Rare vintage <span className="text-accent">4×4</span> camper
             </h1>
@@ -160,7 +163,7 @@ export default function Hero() {
         {/* Render sits above the headline and fills remaining space */}
         <div
           data-hero-render
-          className="pointer-events-none relative z-20 mx-auto -mt-[16vh] -mb-2 min-h-0 w-full max-w-6xl flex-1 lg:ml-auto lg:mr-0 lg:translate-x-[3%] xl:translate-x-[6%]"
+          className="pointer-events-none relative z-20 mx-auto -mt-[8vh] -mb-2 min-h-0 w-full max-w-6xl flex-1 sm:-mt-[12vh] md:-mt-[16vh] lg:ml-auto lg:mr-0 lg:translate-x-[3%] xl:translate-x-[6%]"
         >
           <Image
             src="/vehicle/chinook-cartoon.png"
